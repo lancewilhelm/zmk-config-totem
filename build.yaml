@@ -30,5 +30,5 @@ include:
     shield: settings_reset
   - board: seeeduino_xiao_ble
     shield: totem_central_dongle dongle_display
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    snippet: zmk-usb-logging
     artifact-name: totem_central_dongle_with_logging
